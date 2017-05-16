@@ -1,0 +1,134 @@
+<html>
+<head>
+<style>
+	body{
+	background:linear-gradient(to top,black,#D3D3D3);
+	border:10px solid #e3e3e3;
+	}
+
+
+
+
+</style>
+<link rel="stylesheet" type="text/css" href="legend.css"> 
+<script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
+
+<script type="text/javascript" src="scripts/default.js"></script>
+</head>
+		
+<body >
+
+<h2 class="h2font">&nbspCreate Your Label :) </h2>&nbsp<button id="button_apt">&nbspClick Here</button>  
+<div id="form">
+		<fieldset>
+			<legend class="color" align="center"><b> Label Details:</legend>
+
+<form align="left" action="MAILTO:reach.deliveryexpress@gmail.com"  method="post" enctype="text/plain">
+<p >D<u>eliver</u>y D<u>etail</u>s:</p>
+<label for="Clientid"><sup>*</sup>Client Id:</label><input type="text" name="clientid" onkeypress='return   event.charCode >= 48 && event.charCode <= 57' placeholder="Enter ClientId"></input><br><br>
+<label for="Name"><sup>*</sup>Name:</label><input autofocus id="Name" name="name" pattern="[a-zA-Z]+" title="Please enter the characters only" required type="text" maxlength=25  placeholder="Enter Your Name"></input><br><br>
+<label for="Email"><sup>*</sup>E-mail:-</label><input required id="email" name="email" type="email"placeholder="Enter your E-mail"/><br><br>
+<label for="Mobile"><sup>*</sup>Mobile No.:</label><input type="text"name="mobileNO"  maxlength=10 onkeypress='return   event.charCode >= 48 && event.charCode <= 57' placeholder="Enter your mobile number"></input><br><br>
+<label for="Pincode"><sup>*</sup>Pincode:</label><input type="text" maxlength=6 name="pincode" onkeypress='return   event.charCode >= 48 && event.charCode <= 57' placeholder="Enter your Delivery Pin Code"></input><br><br>
+<label for="Company"><sup>*</sup>Company:</label><input id="company_name" name="company" pattern="[a-zA-Z]+" title="Please enter the characters only" required type="text" placeholder="Enter Company name"/><br><br>
+<label for="Landmark"><sup>*</sup>Landmark:</label><input autofocus id="mark" name="landmark"pattern="[a-zA-Z]+" title="Please enter the characters only" required type="text" maxlength=25  placeholder="Enter landmark"></input><br><br>
+<label for="Address"><sup>*</sup>Address 1:</label><input autofocus id="Address" name="address1" pattern="[a-zA-Z]+" title="Please enter the characters only" required type="text" maxlength=35  placeholder="address line1"></input><br><br>
+<label for="Address"><sup>*</sup>Address 2:</label><input autofocus id="Address" name="address2"  pattern="[a-zA-Z]+" title="Please enter the characters only" required type="text" maxlength=35  placeholder="address line2"></input><br><br>
+<label for="City"><sup>*</sup>City:</label><input id="city" pattern="[a-zA-Z]+" name="city" title="Please enter the characters only" required type="text" placeholder="Enter City name"/><br><br>
+<label for="state"><sup>*</sup>State:</label><select required id="state" name="state">
+									<option value="">------------Select State------------</option>
+									<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+									<option value="Andhra Pradesh">Andhra Pradesh</option>
+									<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+									<option value="Assam">Assam</option>
+									<option value="Bihar">Bihar</option>
+									<option value="Chandigarh">Chandigarh</option>
+									<option value="Chhattisgarh">Chhattisgarh</option>
+									<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+									<option value="Daman and Diu">Daman and Diu</option>
+									<option value="Delhi">Delhi</option>
+									<option value="Goa">Goa</option>
+									<option value="Gujarat">Gujarat</option>
+									<option value="Haryana">Haryana</option>
+									<option value="Himachal Pradesh">Himachal Pradesh</option>
+									<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+									<option value="Jharkhand">Jharkhand</option>
+									<option value="Karnataka">Karnataka</option>
+									<option value="Kerala">Kerala</option>
+									<option value="Lakshadweep">Lakshadweep</option>
+									<option value="Madhya Pradesh">Madhya Pradesh</option>
+									<option value="Maharashtra">Maharashtra</option>
+									<option value="Manipur">Manipur</option>
+									<option value="Meghalaya">Meghalaya</option>
+									<option value="Mizoram">Mizoram</option>
+									<option value="Nagaland">Nagaland</option>
+									<option value="Orissa">Orissa</option>
+									<option value="Pondicherry">Pondicherry</option>
+									<option value="Punjab">Punjab</option>
+									<option value="Rajasthan">Rajasthan</option>
+									<option value="Sikkim">Sikkim</option>
+									<option value="Tamil Nadu">Tamil Nadu</option>
+									<option value="Tripura">Tripura</option>
+									<option value="Uttaranchal">Uttaranchal</option>
+									<option value="Uttar Pradesh">Uttar Pradesh</option>
+									<option value="West Bengal">West Bengal</option>
+									</select></br></br>
+
+<label for="Country"><sup>*</sup>Country:</label><input id="country" name="country" placeholder="INDIA" readonly/><br><br>
+<br>
+
+<br>
+
+<p >
+P<u>ackag</u>e D<u>etail</u>s:</p>
+<label for="date"><sup>*</sup>Ship Date:</label><input type="date" name="shipdate" name="date"></input><br><br>
+
+<label for="service"><sup>*</sup>Package:</label><select required id="service" name="servicePackage" >
+									<option value="">------------Select Service Package------------</option>
+									<option value="Prority">Prority</option>
+									<option value="Standard">Standard</option>
+									<option value="Economy">Economy</option>
+									<option value="Economy">Economy 2kgs</option>
+									<option value="Economy">Economy 5kgs</option>
+									</select><br><br>
+
+
+
+<br>
+<br>
+
+<br>
+
+<p >B<u>illin</u>g D<u>etail</u>s:</p>
+
+<label for="Discription"><sup>*</sup>Discription:</label><input autofocus id="Disc" name="discription" pattern="[a-zA-Z]+" title="Please enter the characters only" required type="text" maxlength=25  placeholder="Enter discription......."></input><br><br>
+<label for="payment"><sup>*</sup>PayMode:</label><font color="white"><input  name="payment" required type="radio" checked/>COD &nbsp<input name="payment"  required type="radio"/>Online</font><br><br>
+<label for="total"><sup>*</sup>Total:</label><input type="text" maxlength=10  name="totalAmount" onkeypress='return   event.charCode >= 48 && event.charCode <= 57' placeholder="Enter Total Invoice Amount"></input><br><br>
+<label for="insurance"><sup>*</sup>Insurance:</label><font color="white"><input  name="insurance" required type="radio" checked/>Yes &nbsp<input name="insurance"  required type="radio" />NO</font><br><br>
+
+
+<br>
+<br>
+<hr>
+<br>
+
+			<input id="submit" onclick="myFunction()" type="submit">
+			<input id="reset" type="reset">
+			<script>
+			</font>
+
+	function myFunction() {
+   	 alert("THANK YOU FOR YOUR INFORMATION");
+	}
+	
+</script>
+		</form>
+		
+		</div>
+			</fieldset>
+			</div>
+
+Note : Fill the above details carefully to avoid misconceptions...........
+</body>
+
+</html>

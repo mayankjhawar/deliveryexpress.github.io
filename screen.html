@@ -1,0 +1,116 @@
+<html>
+<head>
+<style>
+	body{
+	background:linear-gradient(to top,black,#ffffff);
+	border:10px solid #ffffff;
+	}
+
+
+
+
+<style>
+
+
+</style>
+</style>
+
+
+
+
+</head>
+<link rel="stylesheet" type="text/css" href="legend.css"> 		
+
+
+<body >
+
+
+<h2>&nbspSlide Your View:</h2>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/DeliveryExpress.png" style="width:100%" height=400 border=10>
+  <div class="text">DELIVERY EXPRESS</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="images/d2.jpg" style="width:100%" height=400 border=10>
+  <div class="text">TRANSPORTATION WORLDWIDE</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/d1.jpg" style="width:100%" height=400 border=10>
+  <div class="text"><FONT COLOR="BLACK">LOGISTICAL ADVICE</FONT></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="images/6.jpg" style="width:100%" height=400 border=10>
+  <div class="text">MEANS AND WAYS</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="images/7.jpg" style="width:100%" height=400 border=10>
+  <div class="text">COVERED ALL OVER</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+
+<p align="center" >
+<a href="screen.html"><img src="images/home.jpg" style="width:400" height=300 border=10></a>
+<a href="about.html"><img src="images/abt2.jpg" style="width:400" height=300 border=10></a>
+<a href="pincode.html"><img src="images/pin.jpg" style="width:400" height=300 border=10></a>
+</p>
+<p align="center" >
+<a href="label.html"><img src="images/labl1.jpg" style="width:400" height=300 border=10></a>
+<a href="support.html"><img src="images/support1.jpg" style="width:400" height=300 border=10></a>
+<a href="contact.html"><img src="images/cu.jpg" style="width:400" height=300 border=10></a>
+
+</p>
+
+
+
+
+</body>
+
+
+</html>
+

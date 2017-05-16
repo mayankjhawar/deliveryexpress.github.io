@@ -1,0 +1,83 @@
+<doctype!>
+
+<html>
+
+<head>
+<title>DEx.com/support</title>
+<style>
+
+
+	.color{
+		color:white;
+	}
+	.h2font{
+	color:white;
+	}
+	body{
+	background:linear-gradient(to bottom,#A9A9A9,#000);
+	border:10px solid #e3e3e3;
+	}
+</style>
+
+<link type="text/css" rel="stylesheet" href="legend.css"/>
+
+<script type="text/javascript" src="scripts/jquery-3.1.1.js"></script>
+
+<script type="text/javascript" src="scripts/default.js"></script>
+
+</head>
+
+<body>
+
+<br/>
+
+
+
+
+
+<p align="center"><img src="images/download.jpg"  width=80% height=300 border=10></p>
+<h2 class="h2font">&nbspHAPPY TO ASSIST YOU :) </h2>&nbsp<button id="button_apt">&nbspClick Here</button>  
+<div id="form">
+		<fieldset>
+		<legend class="color">&nbspCustomer Relational Support</legend>
+		<form action="MAILTO:reach.deliveryexpress@gmail.com" method="post" enctype="text/plain">
+			<font size=2 color="white">
+			
+			<label for="clientid"><sup>*</sup>Client ID:</label><input type="text" name="clientid" onkeypress='return   event.charCode >= 48 && event.charCode <= 57' placeholder="Enter your mobile number" size= "70" maxlength="90"></input></br></br>
+			
+
+			<label for="service"><sup>*</sup>Service Required:-</label><select required id="service"  name="ServiceRequired" >
+									<option value="">--------Select Required Service--------</option>
+									<option value="Cancel">Cancel The Shipment</option>
+									<option value="Return">Return The Shipment</option>
+									<option value="Attempt">Re-Attempt The Shipment</option>
+									<option value="Invoice">Invoice Related Query</option>
+									<option value="Pick-up">Query Regarding Pickup</option>
+									<option value="Others">Others</option>
+									</select>
+			<br/>
+			<br/>
+			<BR/>
+			<label for="Query:-"><sup>*</sup>Discription:</label><textarea required placeholder="Enter your Query" name="Query" id="address" rows= "10" cols="50" ></textarea></br></br>
+			
+
+			<input id="submit" onclick="myFunction()" type="submit">
+			<input id="reset" type="reset">
+			<script>
+			</font>
+
+	function myFunction() {
+   	 alert("THANK YOU FOR YOUR INFORMATION");
+	}
+	
+</script>
+		</form>
+		
+		</div>
+			</fieldset>
+			</div>
+
+</body>
+
+
+</html>
